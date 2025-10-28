@@ -1,0 +1,159 @@
+/* ===== style.css ===== */
+
+/* Toàn bộ trang */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fbfaf928;
+  color: #333333c7;
+  
+}
+p{
+  
+  style="font-size: 20px;";
+  color:#fcff4b
+}
+body {
+  background-color: rgba(0, 200, 255, 0.784); /* đổi nền toàn trang thành đỏ */
+  margin: 0;
+  padding: 0;
+  
+}
+#home{
+  background-image: url(image/cá\ nhân.jpg);
+ background-size: cover; /* giúp ảnh phủ toàn màn hình */
+  background-position: center; /* căn giữa ảnh */
+  background-repeat: no-repeat; /* không lặp lại ảnh */
+}
+header {
+  background-color: #2dd3df;
+  color: rgba(255, 255, 255, 0.855);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* Thanh điều hướng */
+nav {
+  background-color: #1e96b7;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.868);
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #167e8e;
+}
+
+/* Phần nội dung */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.intro img {
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  object-fit: cover;
+  box-shadow: 0 2px 2px rgba(115, 86, 35, 0.738);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #fffbe620;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+/* Chân trang */
+footer {
+  background: #2dd9df;
+  color: rgba(255, 255, 255, 0.732);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Link trang đang chọn */
+nav a.active {
+  background-color: #16748e;
+  font-weight: bold;
+}
+.center-video {
+  text-align: center;
+}
+
+.center-video video {
+  width: 250px;
+  border-radius: 10px;
+}
+..skills {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #2ebdff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  color: #222222;
+}
+
+.skill {
+  margin-bottom: 25px;
+}
+
+.skill span {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress {
+  flex: 1;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  height: 22px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #ff4b4b; /* màu thanh kỹ năng */
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.6s ease;
+}
+
+.percent {
+  min-width: 40px;
+  text-align: right;
+  font-weight: bold;
+  color: #333333;
+}
+
+
+
